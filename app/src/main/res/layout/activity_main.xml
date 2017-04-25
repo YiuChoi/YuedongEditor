@@ -11,14 +11,6 @@
     tools:context="name.caiyao.yuedongeditor.MainActivity">
 
     <EditText
-        android:id="@+id/et_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:layout_gravity="center_horizontal"
-        android:hint="输入悦动ID" />
-
-    <EditText
         android:id="@+id/et_step"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="修改（注意步数只能增加，无法减少。重启悦动圈生效）" />
+        android:text="修改（注意步数只能增加，无法减少。）" />
 
     <TextView
         android:id="@+id/tv_result"
